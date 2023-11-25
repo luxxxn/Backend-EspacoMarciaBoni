@@ -1,4 +1,4 @@
-import Manicure from "../Modelo/manciure.js";
+import Manicure from "../Modelo/manicure.js";
 import conectar from "./conexao.js";
 
 export default class manicureDAO{
