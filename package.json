@@ -1,0 +1,25 @@
+{
+  "name": "backend-espacomarciaboni",
+  "version": "1.0.0",
+  "description": "Backend para sustentar o chatbot do salão",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxxxn/Backend-EspacoMarciaBoni.git"
+  },
+  "author": "Luan Vitor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxxxn/Backend-EspacoMarciaBoni/issues"
+  },
+  "homepage": "https://github.com/luxxxn/Backend-EspacoMarciaBoni#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  }
+}

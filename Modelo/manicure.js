@@ -1,4 +1,4 @@
-import PizzaDAO from "../Persistencia/pizzaDAO.js";
+import ManicureDAO from "../Persistencia/manicureDAO.js";
 
 export default class Manicure{
     #codigo;
@@ -69,23 +69,23 @@ export default class Manicure{
 
     async gravar(){
         //DAO = Data Access Object
-        const pizzaDAO = new PizzaDAO();
-        await pizzaDAO.gravar(this);
+        const manicureDAO = new ManicureDAO();
+        await manicureDAO.gravar(this);
     }
 
     async atualizar(){
-        const pizzaDAO = new PizzaDAO();
-        await pizzaDAO.atualizar(this);
+        const manicureDAO = new ManicureDAO();
+        await manicureDAO.atualizar(this);
     }
 
     async excluir(){
-        const pizzaDAO = new PizzaDAO();
-        await pizzaDAO.excluir(this);
+        const manicureDAO = new ManicureDAO();
+        await manicureDAO.excluir(this);
     }
 
     async consultar(){
-        const pizzaDAO = new PizzaDAO();
-        return await pizzaDAO.consultar();
+        const manicureDAO = new ManicureDAO();
+        return await manicureDAO.consultar();
     }
 
 }
